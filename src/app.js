@@ -37,13 +37,6 @@ months = {
 };
 let jami = 0;
 
-formEl.addEventListener("submit", (e) => {
-    // e.preventDefault();
-  if (e.key == "Enter") {
-    hisobFunc();
-  }
-});
-
 iconEl.addEventListener("click", (e) => {
   e.preventDefault();
   hisobFunc();
@@ -131,4 +124,3 @@ function hisobFunc() {
     oofunc();
   }
 }
-
