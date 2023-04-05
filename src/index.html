@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- GOOGLE FONTS link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;0,800;1,800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- STYLE CSS link -->
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body class="h-full bg-[#F0F0F0] flex items-center justify-center">
+    <div
+      class="container max-w-[840px] bg-white p-14 rounded-tl-3xl rounded-tr-3xl rounded-br-[200px] rounded-bl-3xl "
+    >
+      <!-- FORM -->
+      <form class="flex-col" action="">
+        <div class="flex font-bold text-sm">
+          <div class="form-box1 flex flex-col mr-8">
+            <span>DAY</span>
+            <input
+              id="day"
+              class="text-[32px] leading-[48px] py-3 px-6 w-[160px] border border-[#DCDCDC] rounded-lg"
+              type="text"
+              placeholder="DD"
+            />
+          </div>
+          <div class="form-box2 flex flex-col mr-8">
+            <span>MONTH</span>
+            <input
+              id="month"
+              class="text-[32px] leading-[48px] py-3 px-6 w-[160px] border border-[#DCDCDC] rounded-lg"
+              type="text"
+              placeholder="MM"
+            />
+          </div>
+          <div class="form-box3 flex flex-col">
+            <span>YEAR</span>
+            <input
+              id="year"
+              class="text-[32px] leading-[48px] py-3 px-6 w-[160px] border border-[#DCDCDC] rounded-lg"
+              type="text"
+              placeholder="YYYY"
+            />
+          </div>
+        </div>
+        <!-- ICON -->
+        <div id="icon-box" class="icon flex justify-end">
+          <img src="../image/svg/down.svg" alt="" />
+        </div>
+      </form>
+
+      <!-- MAIN -->
+      <div class="main">
+        <h1 class="text-[104px]">
+          <span id="yil" class="text-[#854DFF] mr-2">- -</span>years
+        </h1>
+        <h1 class="text-[104px]">
+          <span id="oy" class="text-[#854DFF] mr-2">- -</span>months
+        </h1>
+        <h1 class="text-[104px]">
+          <span id="kun" class="text-[#854DFF] mr-2">- -</span>days
+        </h1>
+      </div>
+    </div>
+
+    <!-- JS -->
+    <script src="./app.js"></script>
+  </body>
+</html>
