@@ -37,8 +37,8 @@ months = {
 };
 let jami = 0;
 
-formEl.addEventListener("keydown", (e) => {
-    e.preventDefault();
+formEl.addEventListener("submit", (e) => {
+    // e.preventDefault();
   if (e.key == "Enter") {
     hisobFunc();
   }
